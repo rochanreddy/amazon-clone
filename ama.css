@@ -1,0 +1,227 @@
+*{
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    border: border-box;
+}
+.navbar{
+    display: flex;
+    height: 60px;
+    background-color: #0f1111;
+    color: white;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.navlogo{
+    height: 40px;
+    width: 110px;
+}
+.logo{
+    height: 40px;
+    width: 100%;
+    background-size: cover;
+    background-image: url(Amazon-Logo-PNG35.png);
+}
+.navlogo:hover{
+    border: 2px solid white;
+}
+.addicon{
+    display: flex;
+}
+.navaddress{
+    padding: 5px;
+}
+.navaddress:hover{
+    border: 2px solid white;
+}
+.navsearch{
+    display: flex;
+    background-color: rgb(254, 183, 52);
+    width: 620px;
+    height: 40px;
+    border-radius: 4px;
+}
+.select{
+    background-color: #f3f3f3;
+    border-radius: 4px;
+    width: 50px;
+    align-items: center;
+}
+.input{
+    width: 620px;
+}
+.searchicon{
+    width: 55px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    font-size: 1.5rem;
+    color: #0f1111;
+}
+.navsign:hover{
+    padding: 3px;
+    border: 2px solid white;
+}
+.accountlist{
+    font-weight: 700;
+}
+.navreturns:hover{
+    padding: 3px;
+    border: 2px solid white;
+}
+.orders{
+    font-weight: 700;
+}
+.navsearch:hover{
+    border: 2px solid orange;
+}
+.navcart i{
+    font-size: 30px;
+}
+.navcart{
+    display: flex;
+    font-weight: 700;
+}
+.navcart:hover{
+    border: 2px solid white;
+    padding: 3px;
+}
+.panel{
+    display: flex;
+    color: white;
+    height: 40px;
+    background-color: #222f3d;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.paneloptions{
+    width: 70%;
+    display: flex;
+}
+.paneldeals{
+    font-size: 0.9rem;
+    font-weight: 700;
+}
+.paneloptions p{
+    margin-left: 15px;
+}
+.mainsection{
+    height: 300px;
+    background-image: url(main\ amazon.jpg);
+    background-size: cover;
+}
+.box{
+    padding: 20px;
+    height: 350px;
+    border: 2px solid black;
+    width: 20%;
+    background-color: white;
+    text-align: center;
+    border: none;
+}
+.boxs{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    background-color: bisque;
+    border: none;
+}
+.box1-image{
+    background-image: url(image1.jpg);
+    background-size: cover;
+    height: 300px;
+    margin-top: 1rem;
+    
+}
+.box2-image{
+    background-image: url(image2.jpg);
+    background-size: cover;
+    height: 300px;
+    margin-top: 1rem;
+}
+.box3-image{
+    background-image: url(image3.jpg);
+    background-size: cover;
+    height: 300px;
+    margin-top: 1rem;
+}
+.box4-image{
+    background-image: url(image4.png);
+    background-size: cover;
+    height: 300px;
+    margin-top: 1rem;
+}
+.box5-image{
+    background-image: url(image5.png);
+    background-size: cover;
+    height: 300px;
+    margin-top: 1rem;
+}
+.box6-image{
+    background-image: url(image6.png);
+    background-size: cover;
+    height: 300px;
+    margin-top: 1rem;
+}
+.box7-image{
+    background-image: url(image4.png);
+    background-size: cover;
+    height: 300px;
+    margin-top: 1rem;
+}
+.box8-image{
+    background-image: url(image8.png);
+    background-size: cover;
+    height: 300px;
+    margin-top: 1rem;
+}
+.footpanel1{
+    background-color: #37475a;
+    color: whitesmoke;
+    font-size: 0.8rem;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+footer{
+    margin: 15px;
+
+}
+.footpanel2{
+    background-color: #222f3d;
+    color: white;
+    display: flex;
+    justify-content: space-evenly;
+    height: 250px;
+}
+ul a{
+    display: block;
+}
+
+.footpanel1 a{
+    color: white;
+}
+.footpanel2 p{
+    font-weight: 700;
+    font-size: large;
+    padding-bottom: 10px;
+    padding-top: 5px;
+}
+.footpanel2 a{
+    padding: 4px;
+}
+.footpanel3{
+    height: 60px;
+    background-color: #222f3d;
+    color: white;
+    border: 0.6px solid white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.footlogo{
+    height: 40px;
+    background-size: cover;
+    background-image: url(Amazon-Logo-PNG35.png);
+    width: 100px;
+}
